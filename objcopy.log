@@ -1,0 +1,1 @@
+copy from `target/riscv64gc-unknown-none-elf/release/cdac_boot' [elf64-littleriscv] to `cdac_boot.bin' [binary]

@@ -1,0 +1,12 @@
+[package]
+name = "keygen"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+p256 = { version = "0.13", features = ["ecdsa", "sha256"] }
+rand_core = "0.6"
+rand_chacha = "0.3"
+sha2 = "0.10"
+
+

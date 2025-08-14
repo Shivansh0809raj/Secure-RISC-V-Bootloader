@@ -1,0 +1,1 @@
+/home/shivansh/Desktop/cdacBOOT_4/target/riscv64gc-unknown-none-elf/release/libcdac_boot.a: /home/shivansh/Desktop/cdacBOOT_4/src/console.rs /home/shivansh/Desktop/cdacBOOT_4/src/ecdsa.rs /home/shivansh/Desktop/cdacBOOT_4/src/flash.rs /home/shivansh/Desktop/cdacBOOT_4/src/lib.rs /home/shivansh/Desktop/cdacBOOT_4/src/tftp.rs

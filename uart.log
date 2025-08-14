@@ -1,0 +1,36 @@
+ZYXWVUQTSPR
+BCD
+   ____  ____    _    ____ 
+  / ___||  _ \  / \  /  _ \
+ | |    | | | |/ _ \ | |     
+ | |___ | |_| / ___ \| |_ //  
+  \____||____/_/   \_\____/ 
+
+cdacBOOT v0.1.0: Secure Booting on QEMU virt machine...
+Reading 4096 bytes from flash at 0x80000000...
+Simulated kernel data: first 16 bytes [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Read kernel: first 16 bytes [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Kernel SHA-256 hash: [200, 245, 208, 52, 29, 84, 217, 81, 167, 27, 19, 110, 110, 42, 252, 177, 77, 17, 237, 132, 137, 167, 174, 18, 106, 143, 238, 13, 246, 236, 241, 147]
+Verifying kernel signature...
+Verifying signature for data len=32
+Kernel signature verified successfully.
+Handing execution to the kernel... [OK]
+Connecting to TFTP server at 192.168.1.1...
+Requesting file kernel.bin...
+Simulating TFTP fetch of kernel.bin
+Received 14 bytes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+OTA update received, applying...
+Writing 14 bytes to flash at 0x90000000...
+Flash write successful!
+Flash write successful!
+Reading 14 bytes from flash at 0x90000000...
+Reading OTA data: first 16 bytes [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Read new kernel: first 16 bytes [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+New kernel SHA-256 hash: [200, 57, 229, 118, 117, 134, 42, 245, 194, 27, 208, 161, 84, 19, 195, 236, 87, 158, 13, 85, 34, 218, 182, 0, 188, 108, 52, 137, 176, 91, 143, 84]
+Verifying new kernel signature...
+Verifying signature for data len=32
+New kernel signature verified successfully.
+Welcome to cdacBOOT!
+E
+Booting kernel at 0x80000000...
+Kernel booted successfully!
